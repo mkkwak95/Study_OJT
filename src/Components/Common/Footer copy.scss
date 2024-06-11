@@ -1,0 +1,69 @@
+// footer 전체 크기 및 배경색 설정
+.footer_all {
+    background-color: #f5f5f5; /* 배경색 설정 */
+}
+ 
+// footer 내부 박스 스타일 설정
+.footer_inbox {
+    background-color: #f5f5f5; /* 배경색 설정 */
+    max-width: 1400px; /* 최대 너비 설정 */
+    max-height: 172px; /* 최대 높이 설정 */
+    padding: 32px 29px; /* 내부 여백 설정 */
+    display: flex; /* 플렉스 박스 사용 */
+    margin: 0 auto; /* 수평 중앙 정렬 */
+}
+
+// tilon footer 로고 이미지 위치 설정
+.tilon_img_place {
+    justify-content: flex-start; /* 왼쪽 정렬 */
+
+    .tilon_img_box {
+        margin: 0; /* 마진 제거 */
+        padding: 0; /* 패딩 제거 */
+        font-weight: 600; /* 폰트 두께 설정 */
+        margin-right: 32px; /* 오른쪽 마진 설정 */
+        width: 145px; /* 너비 설정 */
+        height: 42.05px; /* 높이 설정 */
+    
+        .tilon_footer_img {
+            width: 100%; /* 너비 100% 설정 */
+            height: 100%; /* 높이 100% 설정 */
+        }
+    }
+}
+
+// tilon 정보 텍스트 스타일 설정
+.tilon_info_text {
+    display: flex; /* 플렉스 박스 사용 */
+    flex-wrap: wrap; /* 요소를 여러 줄로 감쌈 */
+    list-style: none; /* 리스트 스타일 없음 */
+    align-items: center; /* 아이템 수직 정렬 */
+    margin: 0; /* 마진 제거 */
+    padding: 0; /* 패딩 제거 */
+    font: inherit; /* 상속된 폰트 사용 */
+    margin-bottom: 8px; /* 아래쪽 마진 설정 */
+
+    & li {
+        margin-right: 0.3rem; /* 오른쪽 마진 설정 */
+    }
+
+    & li::after {
+        content: '|'; /* 각 리스트 아이템 뒤에 '|' 문자 추가 */
+        margin-left: 0.3rem; /* 왼쪽 마진 설정 */
+        position: relative; /* 상대 위치 지정 */
+        font-size: 0.875rem; /* 폰트 크기 설정 */
+    }
+}
+
+// 주소 텍스트 스타일 설정
+.address {
+    font-style: normal; /* 기본 폰트 스타일 설정 */
+    &:last-of-type {
+        margin-bottom: 8px; /* 마지막 주소의 아래쪽 마진 설정 */
+    }
+}
+
+// 저작권 텍스트 스타일 설정
+p.copyright {
+    margin: 0; /* 마진 제거 */
+}

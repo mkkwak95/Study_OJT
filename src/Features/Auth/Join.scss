@@ -1,0 +1,199 @@
+
+main {
+    
+    .Join_main {
+        flex: 1 1 0%;
+        min-width: 1080px;
+        display: block;
+        unicode-bidi: isolate;
+        
+    }
+
+    .Join_body {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 3.438rem 0px;
+        background: rgb(250, 250, 250);
+    }
+    
+    .Join_box {
+        width: 100%;
+        max-width: 500px;
+        height: auto;
+        margin: 0px auto;
+        padding: 0px 1.25rem;
+        background: inherit;
+    }
+ 
+.Join_title_box {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 0px 0px 1.875rem;
+    text-align: center;
+
+    .Join_title {
+        font-size: 2rem;
+        color: rgb(34, 40, 49);
+        font-weight: 500;
+        margin: 0px 0px 0.5rem;
+    }
+
+    .Join_description {
+        font-size: 1rem;
+        color: rgb(34, 40, 49);
+    }
+}
+
+.Join_form_group {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    padding: 0px 0.5rem;
+
+    .Join_input {
+        position: relative;
+        color: rgb(121, 121, 121);
+
+        .Join_inputbox {
+            width: 100%;
+            padding: 1rem 0.75rem;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid rgb(229, 229, 229);
+            border-radius: 4px;
+            font-size: 14px;
+            
+
+            &::before, ::after {
+                box-sizing: border-box;
+            }
+        }
+
+        .floating_label {
+            position: absolute;
+            top: 1rem;
+            left: 0.5rem;
+            padding: 0px 5px;
+            transition: all 0.3s ease 0s;
+            pointer-events: none;
+            font-size: 14px;
+
+            &::after {
+                
+            }
+
+        }
+
+        .Join_alert_msg {
+            margin: 0;
+            padding: 0;
+            color: rgb(245, 0, 0);
+            font-size: 0.75rem;
+        }
+    }   
+
+    .button_join {
+        background-color: rgb(245, 124, 0);
+        border: 1px solid rgb(245, 124, 0);
+        color: rgb(255, 255, 255);
+        transition: all 0.3s ease 0s;
+        display: block;
+        width: 100%;
+        padding: 0.85rem 2.18rem;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-weight: 500;
+
+        &:hover {
+            background-color: rgb(202, 101, 0);
+        }
+    }
+
+    .button_cancel {
+        display: block;
+        width: 100%;
+        padding: 0.85rem 2.18rem;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        font-weight: 500;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgb(229, 229, 229);
+        color: rgb(51, 51, 51);
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            color: rgb(245, 124, 0);
+            background-color: rgb(255, 250, 242);
+            border: 1px solid rgb(245, 124, 0);
+        }
+    }
+
+    .Join_check_box {
+        display: flex;
+        -webkit-box-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        align-items: center;
+
+        .Join_agree {
+            display: flex;
+            -webkit-box-align: center;
+            align-items: center;
+            column-gap: 0.625rem;
+        }
+
+        .Join_check {
+            cursor: pointer;
+            appearance: none;
+            position: relative;
+            width: 24px;
+            height: 24px;
+            outline: none;
+            border: 1px solid rgb(229, 229, 229);
+            border-radius: 2px;
+            background: rgb(255, 255, 255);
+        }
+
+        .Join_check:checked::before {
+            border-radius: 2px;
+            transform: scale(1) translate(-50%, -50%);
+        }
+
+        .Join_check:checked {
+            background-color: rgb(245, 124, 0);
+            border-color: rgb(245, 124, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        .Join_check::before {
+            content: "✓";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            font-size: 1.25rem;
+            overflow: hidden;
+            transform: scale(0) translate(-50%, -50%);
+            line-height: 1;
+        }
+
+        .Join_agree_title {
+            font: inherit;
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            vertical-align: baseline;
+            font-size: 0.875rem;
+        }
+
+        .Join_button_read {
+            color: rgb(51, 51, 51);
+            background-color: inherit;
+            border: none;
+            text-decoration: underline;     
+        }
+    }
+    }
+}

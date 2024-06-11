@@ -1,0 +1,31 @@
+// header 전체 크기 및 정렬 설정
+.header_size {
+    display: flex; /* 플렉스 박스로 설정 */
+    position: relative; /* 상대 위치 설정 */
+    max-width: 100%; /* 최대 너비 100% 설정 */
+    z-index: 100; /* z-index 설정으로 다른 요소들보다 위에 표시 */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 4px; /* 그림자 설정 */
+    justify-content: space-between; /* 요소들 간의 공간을 균등하게 배분 */
+}
+
+// tilon 로고 이미지 설정
+.tilon_logo {
+    padding: 18px 28px; /* 패딩 설정 */
+} 
+
+// 네비게이션 바 설정
+.navigation_bar {
+    display: flex; /* 플렉스 박스로 설정 */
+    list-style: none; /* 리스트 스타일 없음 */
+    justify-content: space-between; /* 요소들 간의 공간을 균등하게 배분 */
+    width: 500px; /* 너비 설정 */
+    align-items: center; /* 아이템을 가운데 정렬 */
+}
+
+// 네비게이션 바 텍스트 설정
+.nav_bar_text {
+    text-decoration: none; /* 텍스트 장식 없음 */
+    color: #333333; /* 텍스트 색상 설정 */
+    padding: 1px 6px; /* 패딩 설정 */
+    font-weight: bold; /* 폰트 두께 설정 */
+}

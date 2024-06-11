@@ -1,0 +1,87 @@
+.footer_all {
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    margin: 0px auto;
+    font-size: 0.925rem;
+    padding: 1.25rem 0;
+
+.footer_body {
+    display: flex;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+}
+
+.footer_tilon_img {
+    max-width: 100%;
+    margin-right: 2.5%;
+
+    .tilon_footer_img {
+    width: 145px; /* 너비 설정 */
+    height: 42.05px; /* 높이 설정 */
+    }
+}
+
+.footer_tilon_info {
+    line-height: 1.25rem;
+}
+
+.footer_info_box {
+    margin-bottom: 0.25rem;
+
+    .footer_info_box dl, .footer_info_box dt {
+        display: inline-block;
+    }
+}
+
+.footer_info_text {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.footer_info_text dt, .footer_info_text dd {
+    display: inline-block;
+    font: inherit;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    vertical-align: baseline;
+}
+
+.footer_info_text dt::after {
+    content: ": ";
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0.2rem;
+}
+
+.footer_info_text dd:not(:last-child)::after {
+    content: " | ";
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    unicode-bidi: isolate;
+    font-size: 0.875rem;
+}
+
+address {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+small {
+    display: block;
+    margin-top: 0.25rem;
+    font-size: 1rem;
+    }
+
+}

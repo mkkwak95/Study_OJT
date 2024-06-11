@@ -1,0 +1,153 @@
+ 
+ .RsvList_main {
+    flex: 1 1 0%;
+    min-width: 1080px;
+
+    .RsvList_body {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 3.438rem 0px;
+        background: rgb(250, 250, 250);
+     
+        .RsvList_box {
+            width: 100%;
+            max-width: 1080px;
+            height: auto;
+            margin: 0px auto;
+            padding: 0px 1.25rem;
+            background: inherit;
+          }
+
+        .RsvList_title {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 0px 0px 1.875rem;
+            text-align: center;
+        }  
+    
+        .RsvList_tab {
+            display: flex;
+            width: 25%;
+        }
+
+        .RsvList_tab button {
+            width: 100%;
+            border: none;
+            border-top-left-radius: 7px;
+            border-top-right-radius: 7px;
+            padding: 0.5rem 0.75rem;
+            font-size: 12px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+
+        .RsvList_tab button:nth-child(1) {
+            background-color: rgb(245, 124, 0);
+            color: rgb(255, 255, 255);
+        }
+
+        .RsvList_tab button:nth-child(2) {
+            background-color: rgb(229, 229, 229);
+            color: rgb(51, 51, 51);
+        }
+
+        .RsvList_table_box {
+            width: 100%;
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            border-top: 2px solid rgb(51, 51, 51);
+            font-size: 13px;
+            
+            border-collapse: collapse;
+            border-spacing: 0;
+        }
+
+        .RsvList_title colgroup {
+            display: table-column-group;
+            unicode-bidi: isolate;
+        }
+
+        thead {
+            background-color: rgb(224, 224, 224);
+        }
+
+        .RsvList_table_title {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        .RsvList_table_title th {
+            padding: 0.875rem 1rem;
+            
+        }
+  
+        tbody {
+            margin: 0;
+            border: 0;
+            font: inherit;
+            vertical-align: baseline;
+        }
+
+        .RsvList_text {
+            background-color: rgb(255, 255, 255);
+            border-bottom: 1px solid rgb(224, 224, 224);
+        }
+
+        .RsvList_text td {
+            padding: 1rem 1.375rem;
+            vertical-align: baseline;
+        }
+
+        .RsvList_text button {
+            font-family: inherit;
+            margin: 0px 5px;
+            padding: 5px 20px;
+            border: 1px solid rgb(217, 217, 217);
+            border-radius: 4px;
+            background-color: rgb(255, 255, 255);
+            color: rgb(51, 51, 51);
+            font-size: 12px;
+            transition: all 0.3s ease 0s;
+        
+            &:hover {
+                font-family: inherit;
+                cursor: pointer;
+                background-color: rgb(245, 124, 0);
+                color: white;
+            }
+        }
+        
+        .button_new_rsv {
+            display: block;
+            text-align: center;
+            width: 110px;
+            border-radius: 4px;
+            background-color: rgb(229, 229, 229);
+            margin: 1rem 0px 1rem auto;
+            padding: 0.5rem 0.5rem;
+            text-decoration: none;
+            color: inherit;
+        
+            &:hover {
+                    cursor: pointer;
+                    background-color: rgb(245, 124, 0);
+                    color: white;
+                }
+            }
+        
+        }
+        
+    }
+        
+
+        
+    
+
+

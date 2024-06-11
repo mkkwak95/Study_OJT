@@ -1,0 +1,117 @@
+
+main {
+    flex: 1 1 0%;
+    min-width: 1080px
+    }
+
+    .QnA_main {
+        width: 100%;
+        max-width: 100%;
+        height: 100%;
+        padding: 3.438rem 0px;
+        background: rgb(250, 250, 250);
+    }
+
+    .QnA_body {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0px 0px 1.875rem;
+        text-align: center; 
+    }
+
+    .QnA_box {
+        width: 100%;
+        max-width: 1080px;
+        height: auto;
+        margin: 0px auto;
+        padding: 0px 1.25rem;
+        background: inherit;
+    }
+ 
+    .QnA_title {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        margin: 0px 0px 1.875rem;
+        text-align: center;
+    }
+
+    .QnA_title_p {
+        font-size: 2rem;
+        color: rgb(34, 40, 49);
+        font-weight: 500;
+    }
+
+.QnA_box_list {
+    list-style: none;
+
+    .QnA_box_section {
+        border-bottom: 1px solid rgb(233, 233, 233);
+        margin-bottom: 12px;
+
+        .QnA_box_question {
+            display: flex;
+            align-items: center;
+            padding-left: 24px;
+            background-color: rgb(255, 255, 255);
+        
+            .QnA_strong {
+                margin: 0px;
+                padding: 0px;
+                border: 0px;
+                font: inherit;
+                vertical-align: baseline;
+            }
+        }
+
+        .QnA_checkbox {
+            appearance: none;
+            position: relative;
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            outline: none;
+            background: rgb(255, 255, 255);
+            margin: 0px 0px 0px auto;
+
+            &::before {
+                content: "∨";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                font-size: 1rem;
+                overflow: hidden;
+                transform: scale(1) translate(-50%, -50%);
+                line-height: 1;
+            }
+
+            &:hover {
+                content: "∨";
+                background-color: rgb(245, 124, 0);
+                border-color: rgb(245, 124, 0);
+                color: rgb(255, 255, 255);
+            }
+
+            &:checked {
+                background-color: rgb(245, 124, 0);
+                border-color: rgb(245, 124, 0);
+                color: rgb(255, 255, 255);
+            }
+        }
+
+        .QnA_box_answer {
+            margin: 0px;
+            padding: 0px;
+            border: 0px;
+            display: none;
+            padding: 24px;
+            font-size: 0.9rem;
+            text-align: left;
+
+            &.active {
+                display: block;
+            }
+        }
+    }
+}
