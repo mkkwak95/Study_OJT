@@ -37,11 +37,13 @@
 > Site clone (GPT X)
 - QnA // HTML+CSS
 - Forgot // HTML+CSS
+- Java Script (onclick) : QnA, Modal
 
 6/12 (WED)
 > Site clone (GPT X)
+- Leave // HTML+CSS
+- Reservation Tab Active
 - ModalUse, ModalInfo // HTML+CSS
-- Java Script (onclick) : QnA, Modal
 
 6/13 (THU)
 
