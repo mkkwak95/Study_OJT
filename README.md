@@ -19,7 +19,7 @@
 > Site clone (GPT X)
 - Login, Join // HTML+CSS
 > VS code (→ Webstorm)
-> React (scss → styled.componets)
+> React (scss → styled.components)
 - Components, Pages, Layout 
 
 > DAVEIT DAY 2024 
